@@ -224,26 +224,35 @@ h1, h2, h3 {
 .brand {
   display: inline-flex;
   align-items: center;
-  font-family: var(--font-serif);
-  font-size: 1.5rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
+  gap: 0.65rem;
   text-decoration: none;
   color: var(--ink);
 }
 
-/* Logo de marque — hauteur fixe, ratio préservé, intégration douce */
+/* Logo de marque — PNG transparent, ratio préservé, sans fond ni bordure */
 .brand-logo {
-  height: 40px;
+  height: 44px;
   width: auto;
   display: block;
   object-fit: contain;
-  border-radius: 10px;
-  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), filter 0.3s ease;
+  background: none;
+  border: none;
+  border-radius: 0;
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Texte de marque — typographie moderne et raffinée */
+.brand-name {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  color: var(--ink);
 }
 
 .brand:hover .brand-logo {
-  transform: scale(1.04);
+  transform: scale(1.05);
 }
 
 .nav-links {
