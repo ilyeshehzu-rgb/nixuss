@@ -207,6 +207,7 @@ h1, h2, h3 {
 }
 
 .site-nav {
+  position: relative;
   display: flex;
   align-items: center;
   gap: var(--space-lg);
@@ -222,6 +223,10 @@ h1, h2, h3 {
 }
 
 .brand {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   display: inline-flex;
   align-items: center;
   gap: 0.65rem;
@@ -235,9 +240,10 @@ h1, h2, h3 {
   width: auto;
   display: block;
   object-fit: contain;
-  background: none;
+  background: transparent;
   border: none;
   border-radius: 0;
+  box-shadow: none;
   transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
@@ -259,7 +265,6 @@ h1, h2, h3 {
   display: flex;
   gap: var(--space-lg);
   list-style: none;
-  margin-left: auto;
 }
 
 .nav-links a {
@@ -294,6 +299,7 @@ h1, h2, h3 {
 }
 
 .nav-cta {
+  margin-left: auto;
   padding: 0.7rem 1.4rem;
   font-size: 0.9rem;
 }
