@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / tooling
+.vscode/
+*.log
+
+# Temp extraction artifacts
+_plan_raw.xml
+_plan_text.txt
+
+# Dependencies
+node_modules/
+
+# Cursor workspace internals (not part of the project)
+canvases/
+mcps/
+terminals/
+agent-transcripts/

@@ -1,0 +1,64 @@
+# NIXUSS BRAND IDENTITY & GUIDELINES
+Business Legal Name: NIXUSS[cite: 1]
+Slogan: Connecting Tech to Targets[cite: 1]
+Brand Voice: Direct, analytical, and numbers-driven[cite: 1]
+Target Audience: E-commerce and fast-growing tech startups in Algeria[cite: 1]
+Decision Maker: The Founder or Small Business Owner[cite: 1]
+Visual Style: Monochrome (Black, white, grey) with one accent color, brutalist Sans-serif fonts, card-based layout[cite: 1]
+
+# METHODOLOGY 1: NEXUM Framework™[cite: 1]
+When writing copy about our growth process, refer to:
+N → Navigate (Research)[cite: 1]
+E → Engineer (Strategy)[cite: 1]
+X → Execute (Launch)[cite: 1]
+U → Understand (Measure)[cite: 1]
+M → Multiply (Scale)[cite: 1]
+
+# METHODOLOGY 2: POSITIONING OS™[cite: 1]
+When writing copy about our positioning service for established businesses, refer to:
+1. Diagnose — Understand where you stand today.[cite: 1]
+2. Discover — Identify market opportunities.[cite: 1]
+3. Define — Build a clear competitive position.[cite: 1]
+4. Align — Synchronize every customer touchpoint.[cite: 1]
+5. Activate — Launch the new positioning.[cite: 1]
+6. Measure — Track market response and business impact.[cite: 1]
+7. Optimize — Continuously strengthen your position.[cite: 1]
+
+# DEVELOPMENT RULES
+- Write all HTML markup using semantic HTML5.
+- Keep the site copy primarily in French[cite: 1].
+- Avoid using placeholder images; focus on UI components and dashboard mockups showing growth charts[cite: 1].
+- Do not build a blog section[cite: 1].
+- Use bold, massive, brutalist Sans-serif typography.
+- Card-based layout (like modern dashboards).
+- Functional animation only: hover effects on buttons and data points.
+- Support system default dark/light mode.
+- Photography: no photos — only screenshots of work and dashboard mockups.
+- Footer: minimalist (business info, email, social links only).
+- Homepage copy: bullet-point heavy, focused on benefits and stats.
+
+# WEBSITE BLUEPRINT (landing page, single page, French)
+Target client: E-commerce & fast-growing tech startups in Algeria (Founder / Small Business Owner).
+Final CTA on every section group: "Réserver un Appel" / "Schedule a Consultation".
+
+1. Navbar (sticky): Logo left. Links: Notre Approche, Nos Services, Études de Cas. CTA button (accent color): "Réserver un Appel".
+2. Hero:
+   - H1: "Faites décoller vos ventes E-commerce en Algérie sans exploser votre budget publicitaire."
+   - Subheadline: "Nous aidons les marques locales à réduire leurs coûts d'acquisition et à optimiser leurs taux de confirmation grâce à des stratégies publicitaires basées sur la donnée."
+   - Primary CTA: "Réserver mon Audit Gratuit".
+   - Visual: dashboard mockup with an upward-trending growth chart.
+3. Trust bar: "Ils nous font confiance :" — horizontal logo row. Keep hidden until real clients exist.
+4. Problem: "Le marché algérien est unique. Vos publicités devraient l'être aussi." Three columns:
+   - Taux de confirmation (COD) trop bas.
+   - Coût par clic qui augmente sur Facebook/Instagram.
+   - Manque de visibilité sur le vrai retour sur investissement (ROAS).
+5. Services: "Comment nous transformons votre acquisition." Three cards:
+   - L'Audit Stratégique.
+   - Création de Contenu & Copywriting.
+   - Media Buying & Optimisation.
+6. Portfolio / Études de cas: "Des résultats concrets." Grid of 2–3 case studies (Client, Secteur, Défi, Résultat, optional testimonial). Use Before/After style.
+7. Lead Capture: "Prêt à scaler votre chiffre d'affaires ?" / "Remplissez ce formulaire rapide pour voir si nous sommes un bon fit." Fields: Nom complet, Email, Téléphone/WhatsApp, Lien site/page FB-IG, Budget (Moins de 50,000 DZD / 50k-100k / Plus de 100k). Button: "Envoyer ma candidature". Form action left as placeholder for Formspree/Netlify.
+8. Footer: NIXUSS, Alger, Algérie. Email + phone. Links: Mentions Légales, Politique de Confidentialité. Social: LinkedIn, Instagram, Facebook.
+
+# PROPRIETARY FRAMEWORK (use on "Notre Approche")
+Present the NEXUM Framework™ (Navigate, Engineer, Execute, Understand, Multiply) as the agency methodology.
