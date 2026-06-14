@@ -5,9 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="NIXUSS — Agence de growth data-driven pour l'e-commerce et les startups tech en Algérie. Réduisez votre coût d'acquisition et optimisez votre ROAS.">
   <title>NIXUSS — Connecting Tech to Targets</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <!-- Décor : halos de dégradé doux en arrière-plan -->
+  <div class="bg-decor" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+  </div>
   <!-- ===================== NAVBAR (sticky) ===================== -->
   <header class="site-header">
     <nav class="site-nav" aria-label="Navigation principale">
@@ -48,6 +57,12 @@
               <span class="badge badge-up">▲ +28%</span>
             </div>
             <svg class="chart" viewBox="0 0 320 160" role="img" aria-label="Graphique de croissance">
+              <defs>
+                <linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#c86dd7" stop-opacity="0.45" />
+                  <stop offset="100%" stop-color="#7c6cf6" stop-opacity="0.04" />
+                </linearGradient>
+              </defs>
               <polyline class="chart-grid" points="0,40 320,40" />
               <polyline class="chart-grid" points="0,80 320,80" />
               <polyline class="chart-grid" points="0,120 320,120" />
@@ -79,7 +94,7 @@
     </section>
 
     <!-- ===================== PROBLEM ===================== -->
-    <section id="problem" aria-label="Problème">
+    <section id="problem" class="reveal-on-scroll" aria-label="Problème">
       <h2 class="section-title">Le marché algérien est unique. Vos publicités devraient l'être aussi.</h2>
       <div class="grid-3">
         <article class="card problem-item">
@@ -101,7 +116,7 @@
     </section>
 
     <!-- ===================== APPROCHE / NEXUM FRAMEWORK ===================== -->
-    <section id="approche" aria-label="Notre approche">
+    <section id="approche" class="reveal-on-scroll" aria-label="Notre approche">
       <h2 class="section-title">Notre méthode : le NEXUM Framework™</h2>
       <p class="section-subtitle">Un processus de croissance en cinq étapes, piloté par la donnée, de la recherche jusqu'à la mise à l'échelle.</p>
       <ol class="nexum-grid">
@@ -134,7 +149,7 @@
     </section>
 
     <!-- ===================== SERVICES ===================== -->
-    <section id="services" aria-label="Services">
+    <section id="services" class="reveal-on-scroll" aria-label="Services">
       <h2 class="section-title">Comment nous transformons votre acquisition.</h2>
       <div class="grid-3">
         <article class="card service-card">
@@ -156,7 +171,7 @@
     </section>
 
     <!-- ===================== PORTFOLIO / ÉTUDES DE CAS ===================== -->
-    <section id="portfolio" aria-label="Études de cas">
+    <section id="portfolio" class="reveal-on-scroll" aria-label="Études de cas">
       <h2 class="section-title">Des résultats concrets.</h2>
       <div class="grid-3">
         <article class="card case-study">
@@ -190,7 +205,7 @@
     </section>
 
     <!-- ===================== LEAD CAPTURE ===================== -->
-    <section id="contact" aria-label="Contact">
+    <section id="contact" class="reveal-on-scroll" aria-label="Contact">
       <h2 class="section-title">Prêt à scaler votre chiffre d'affaires ?</h2>
       <p class="section-subtitle">Remplissez ce formulaire rapide pour voir si nous sommes un bon fit.</p>
 

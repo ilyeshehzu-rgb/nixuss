@@ -29,9 +29,11 @@ When writing copy about our positioning service for established businesses, refe
 - Keep the site copy primarily in French[cite: 1].
 - Avoid using placeholder images; focus on UI components and dashboard mockups showing growth charts[cite: 1].
 - Do not build a blog section[cite: 1].
-- Use bold, massive, brutalist Sans-serif typography.
-- Card-based layout (like modern dashboards).
-- Functional animation only: hover effects on buttons and data points.
+- Visual direction: modern, elegant, artistic (NOT brutalist). No hard offset shadows, thick borders, or text strokes.
+- Typography: refined serif for headings (Playfair Display) + lightweight sans-serif for body (Inter).
+- Use ample whitespace, soft subtle gradients, rounded corners, and glassmorphism (backdrop-filter) on cards and the sticky navbar.
+- Card-based layout (like modern dashboards) rendered as frosted-glass panels.
+- Animation: smooth, artistic fade-in on sections and elegant fluid hover states (lift + soft shadow/gradient shift).
 - Support system default dark/light mode.
 - Photography: no photos — only screenshots of work and dashboard mockups.
 - Footer: minimalist (business info, email, social links only).
